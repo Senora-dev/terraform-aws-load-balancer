@@ -20,7 +20,7 @@ Terraform module which creates Application and Network Load Balancer resources o
 
 ```hcl
 module "alb" {
-  source = "terraform-aws-modules/load-balancer/aws"
+  source = "Senora-dev/load-balancer/aws"
 
   name               = "my-alb"
   load_balancer_type = "application"
